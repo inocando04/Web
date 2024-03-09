@@ -1,0 +1,288 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    
+
+
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow: hidden;
+  }
+
+
+
+
+
+    .wrapper{
+        height: 100vh;
+        
+        overflow-y: auto;
+        overflow-x: hidden;
+        perspective: 10px;
+    }
+
+
+.container{
+    background: linear-gradient(350deg, rgba(29,188,253,1) 0%, rgba(29,188,253,1) 0%, rgba(19,113,171,1) 16%, rgba(12,60,113,1) 28%, rgba(12,57,110,1) 30%, rgba(6,12,60,1) 47%);
+
+}
+
+
+
+
+.home-header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+
+
+
+.fore1{
+    top:26%;
+    color:black;
+    position: absolute;
+    width: 100vw;
+   
+}
+.background,.fore{
+ 
+    position: absolute;
+   
+    top:-200px;
+    object-fit: cover;
+    
+}
+
+
+.background{
+    transform: translateZ(-25px)scale(6);
+}
+.fore{
+    transform: translateZ(-20px)scale(2);
+}
+
+.title{
+    
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    font-size:800%;
+    text-shadow: 0 0 10px black;
+    transition: .3s;
+}
+.title:hover{
+    color: rgb(5, 79, 139);
+    font-size:900%;
+    text-shadow: 0 0 10px black;
+
+}
+
+.About{
+   
+    height:100vh;
+    
+}
+
+
+
+.header{
+    position: sticky;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.089), rgba(255, 255, 255, 0.247));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(2px);
+    border:1px solid rgba(255, 255, 255, 0.18); box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 20%;
+
+    text-decoration: none;
+}
+
+
+.Logo{
+
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    text-decoration: none;
+    font-weight: 700;
+    transition: .3s;
+
+
+ 
+    
+}
+
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 100%;
+    font-weight: 700;
+    transition: .3s;
+   
+}
+
+
+.Logo:hover , .navbar a:hover{
+    font-size: 150%;
+    color: rgb(0, 102, 255);
+    
+
+}
+
+
+.textWrap{
+    
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.212));
+    border:1px solid rgba(255, 255, 255, 0.18); box-shadow: 0 10px 100px 0 rgba(0, 0, 0, 0.37);
+    border-radius: 20px;
+    margin: 5%;
+    
+    align-items:center;
+
+
+    height: 80vh;
+    transition: .3s;
+}
+
+.textWrap:hover{
+    height: 83vh;
+}
+
+
+.jam{
+    top:110px;
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+   
+}
+
+.Jamier{
+    text-align: center;
+    
+    position: relative;
+    bottom:30%;
+    left:10%;
+    font-size: 300%;
+    color: rgb(255, 252, 252);
+    text-shadow: 0 0 10px rgb(2, 95, 182);
+}
+
+.aboutJ{
+    bottom:28%;
+    left: 35%;
+    width: 50%;
+    font-size: 150%;
+    color: rgb(255, 252, 252);
+   text-align: center;
+    position: relative;
+    font-weight: 500;
+   
+   
+}
+
+
+    
+.pro{
+
+   
+    width: 50%;
+    font-size: 300%;
+    color: rgb(255, 252, 252);
+   text-align: center;
+    left: 25%;
+    position: relative;
+    font-weight: 500;
+
+}
+
+.panel{
+    position: relative;
+    background: linear-gradient(135deg, rgba(36, 135, 228, 0.13), rgba(1, 56, 173, 0.212));
+    border:1px solid rgba(255, 255, 255, 0.18); box-shadow: 0 10px 100px 0 rgba(0, 0, 0, 0.37);
+    border-radius: 20px;
+    margin: 5%;
+    bottom: 7%;
+    align-items:center;
+    
+
+    height: 80%;
+
+}
+
+.LOVE{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    bottom: 30%;
+    border-radius: 30px;
+}
+
+
+.stats{
+    position: relative;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.212));
+    border:1px solid rgba(255, 255, 255, 0.18); box-shadow: 0 10px 100px 0 rgba(0, 0, 0, 0.37);
+    border-radius: 20px;
+    margin: 5%;
+    bottom: 27%;
+    align-items:center;
+
+    padding: 1% 10%;
+    height: 20vh;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+   
+ 
+}
+
+.skills , .Education{
+
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px black;
+
+    
+}
+
+li{
+    font-size: 100%;
+    font-weight: 500;
+}
+
+button{
+ position: relative;
+ display: flex;
+ right:48%;
+ top: 20%;
+font-size: 20px;
+font-weight: 500;
+ color: rgb(1, 48, 255);
+ background-color: rgb(244, 244, 255);
+ text-shadow: 0 0 5px rgb(62, 168, 255);
+ border-radius: 30px;
+ width: 10%;
+ height: 4%;
+ transition: .3s;
+
+}
+button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(11, 129, 240);
+
+}

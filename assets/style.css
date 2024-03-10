@@ -216,7 +216,7 @@ html {
 
 .stats{
     position: relative;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.212));
+    background: linear-gradient(135deg, rgba(69, 27, 182, 0.493),rgba(17, 95, 211, 0.452));
     border:1px solid rgba(255, 255, 255, 0.18); box-shadow: 0 10px 100px 0 rgba(0, 0, 0, 0.37);
     border-radius: 20px;
     margin: 5%;
@@ -245,6 +245,7 @@ html {
 
 li{
     font-size: 100%;
+    color: rgb(255, 255, 255);
     font-weight: 500;
 }
 
@@ -426,6 +427,26 @@ button:hover{
 
 
 @media (min-height: 932px){
+   
+   
+
+    .jam{
+
+        width: 8rem;
+    height: 8rem;
+    left: 33%;
+    top: 5%;
+    
+    }
+    
+
+  
+
+
+}
+
+
+@media (min-height: 915px){
    
    
 

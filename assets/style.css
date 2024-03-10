@@ -385,8 +385,8 @@ body{
     
         .jam{
            
-            width: 12rem;
-             height: 12rem;
+            width: 8rem;
+             height: 8rem;
             
         }
         .stats{
@@ -394,11 +394,26 @@ body{
         }
        
         li{
-            font-size:5%;
+            font-size:15%;
         }
-    
+        .Jamier{
+            font-size: 200%;
+        }
     }
 
+
+
+    @media (max-width: 583px){
+       
+        .stats{
+            width: 400px;
+        }
+       .skills , .Education{
+        font-size: 30%;
+        margin: 10%;
+       }
+        
+    }
 
 
    

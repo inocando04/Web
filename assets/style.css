@@ -28,7 +28,7 @@ html {
 
 .container{
     background: linear-gradient(350deg, rgba(29,188,253,1) 0%, rgba(29,188,253,1) 0%, rgba(19,113,171,1) 16%, rgba(12,60,113,1) 28%, rgba(12,57,110,1) 30%, rgba(6,12,60,1) 47%);
-
+    
 }
 
 
@@ -146,18 +146,25 @@ html {
 
 
 .textWrap{
-    
+    position: relative;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.212));
     border:1px solid rgba(255, 255, 255, 0.18); box-shadow: 0 10px 100px 0 rgba(0, 0, 0, 0.37);
     border-radius: 20px;
     margin: 5%;
     
     align-items:center;
+    display: inline-block;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
 
 
     height: 80vh;
     transition: .3s;
 }
+
+
+
 
 .textWrap:hover{
     height: 83vh;
@@ -165,28 +172,27 @@ html {
 
 
 .jam{
-    top:110px;
+    
     position: relative;
     width: 20rem;
     height: 20rem;
-   
+    
 }
 
 .Jamier{
     text-align: center;
     
     position: relative;
-    bottom:30%;
-    left:10%;
+   
     font-size: 300%;
     color: rgb(255, 252, 252);
     text-shadow: 0 0 10px rgb(2, 95, 182);
 }
 
 .aboutJ{
-    bottom:28%;
-    left: 35%;
-    width: 50%;
+   
+ 
+ 
     font-size: 120%;
     color: rgb(255, 252, 252);
    text-align: center;
@@ -205,7 +211,7 @@ html {
     font-size: 300%;
     color: rgb(255, 252, 252);
    text-align: center;
-    left: 25%;
+    
     position: relative;
     font-weight: 500;
 
@@ -220,14 +226,14 @@ html {
     border:1px solid rgba(255, 255, 255, 0.18); box-shadow: 0 10px 100px 0 rgba(0, 0, 0, 0.37);
     border-radius: 20px;
     margin: 5%;
-    bottom: 27%;
+    
     align-items:center;
 
-    padding: 1% 10%;
-    height: 20vh;
+    padding: 0% 15%;
+    height: 20%;
     justify-content: space-between;
     display: flex;
-    
+   
     flex-wrap: nowrap;
     text-align: center;
    
@@ -239,6 +245,7 @@ html {
     font-size: 100%;
     color: rgb(255, 255, 255);
     text-shadow: 0 0 10px black;
+    margin: 30px;
 
     
 }
@@ -248,6 +255,10 @@ li{
     color: rgb(255, 255, 255);
     font-weight: 500;
 }
+
+
+
+
 
 button{
  position: absolute;
@@ -269,159 +280,6 @@ font-weight: 500;
 button:hover{
     color: rgb(255, 255, 255);
     background-color: rgb(11, 129, 240);
-
-}
-
-
-@media (max-width: 1149px){
-    .aboutJ{
-        font-size: 90%;
-       
-    }
-
-    .jam{
-        width: 15rem;
-    height: 15rem;
-    }
-    .stats{
-        bottom: 21%;
-        
-    }
-    li{
-        font-size: 80%;
-    }
-
-}
-
-
-@media (max-width: 895px){
-    .aboutJ{
-        font-size: 90%;
-       
-    }
-
-    .jam{
-        width: 12rem;
-    height: 12rem;
-    }
-    .skills, .Education{
-        font-size: 80%;
-    }
-    .stats{
-        bottom: 21%;
-    }
-    li{
-        color: rgb(255, 252, 252);
-        font-size: 50%;
-    }
-
-}
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 679px){
-    .aboutJ{
-        font-size: 90%;
-       
-    }
-    .Jamier{
-        font-size: 270%;
-    }
-
-    .jam{
-        width: 12rem;
-    height: 12rem;
-    }
-    .skills, .Education{
-        font-size: 80%;
-    }
-    .stats{
-        bottom: 21%;
-    }
-    li{
-        color: rgb(255, 252, 252);
-        font-size: 50%;
-    }
-
-}
-
-
-@media (max-width: 599px){
-    .aboutJ{
-       
-        left: 25%;
-        top:10px;
-        font-size: 70%;
-    }
-    .stats{
-        bottom: -3%;
-        margin: 0%;
-        flex-direction: column;
-    }
-
-    .jam{
-
-        width: 8rem;
-    height: 8rem;
-    transform: translate(154%,-50%);
-    
-    }
-
-    li{
-        
-        color: rgb(255, 252, 252);
-        font-size: 80%;
-    }
-    .skills, .Education{
-        font-size: 20px;
-    }
-    .stats{
-        height: 30vh;
-    }
-
-    .Jamier{
-        font-size: 200%;
-        transform: translate(-11%,175%);
-
-    }
-
-
-    .title{
-        font-size: 680%;
-        transform: translateX(5%);
-    }
-
-
-}
-
-
-@media (max-width: 420px){
-   
-   
-
-    .jam{
-
-        width: 8rem;
-    height: 8rem;
-    left: 30%;
-    top: 5%;
-    
-    }
-
-    .textWrap{
-        height: 100vh;
-    }
-    
-
-  
-
 
 }
 
@@ -472,3 +330,72 @@ body{
     height: 100vh;
 
 }
+
+
+
+
+
+
+
+
+
+    @media (max-width: 1149px){
+        .aboutJ{
+            font-size: 90%;
+           
+        }
+    
+        .jam{
+            width: 15rem;
+        height: 15rem;
+        }
+       
+        li{
+            font-size: 80%;
+        }
+    
+    }
+
+    @media (max-width: 799px){
+        .aboutJ{
+            font-size: 90%;
+           
+        }
+    
+        .jam{
+            width: 12rem;
+        height: 12rem;
+        }
+       
+        li{
+            font-size: 60%;
+        }
+    
+    }
+
+
+    @media (max-width: 599px){
+        .aboutJ{
+            font-size: 90%;
+           
+        }
+    
+        .jam{
+           
+            width: 12rem;
+             height: 12rem;
+            
+        }
+        .stats{
+            width: 470px;
+        }
+       
+        li{
+            font-size: 8px;
+        }
+    
+    }
+
+
+
+   

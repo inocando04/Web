@@ -68,9 +68,11 @@ html {
 
 .title{
     
+    
+   
     color: rgb(255, 255, 255);
     z-index: 1;
-    font-size:800%;
+    font-size:600%;
     text-shadow: 0 0 10px black;
     transition: .3s;
 }
@@ -254,15 +256,14 @@ li{
 
 
 
-.Download{
- position: absolute;
- display: flex;
- 
-font-size: 20px;
-font-weight: 500;
- color: rgb(1, 48, 255);
+.btn{
+text-decoration: none;
+display: flex;
+position: absolute;
+
+ color: rgb(36, 61, 175);
  background-color: rgb(244, 244, 255);
- text-shadow: 0 0 5px rgb(62, 168, 255);
+ 
  border-radius: 30px;
  width: 185px;
  height: 50px;
@@ -272,9 +273,17 @@ font-weight: 500;
 
 }
 
+.TitleBtn{
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 150%;
+}
 
 
-.Download:hover{
+
+.btn:hover{
     color: rgb(255, 255, 255);
     background-color: rgb(11, 129, 240);
 

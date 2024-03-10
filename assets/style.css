@@ -198,7 +198,7 @@ html {
 
 
     
-.pro{
+.Contacts{
 
    
     width: 50%;
@@ -250,19 +250,20 @@ li{
 }
 
 button{
- position: relative;
+ position: absolute;
  display: flex;
- right:48%;
- top: 15%;
+ 
 font-size: 20px;
 font-weight: 500;
  color: rgb(1, 48, 255);
  background-color: rgb(244, 244, 255);
  text-shadow: 0 0 5px rgb(62, 168, 255);
  border-radius: 30px;
- width: 15%;
- height: 5%;
+ width: 185px;
+ height: 50px;
  transition: .3s;
+
+ transform: translate(0%,200%);
 
 }
 button:hover{
@@ -426,41 +427,43 @@ button:hover{
 }
 
 
-@media (min-height: 932px){
+
+
+
+
+
+.icons{
+    position: absolute;
+    font-size: 30px;
    
+    transform: translateY(320%);
    
+    text-align: center;
+   
+}
 
-    .jam{
-
-        width: 8rem;
-    height: 8rem;
-    left: 33%;
-    top: 5%;
-    
-    }
-    
-
-  
-
-
+.fa-brands.fa-facebook-f{
+    color: white;
+    transition: .3s;
+}
+.fa-brands.fa-facebook-f:hover{
+    font-size: 40px;
+    color: #39569c;
 }
 
 
-@media (min-height: 915px){
+
+.fa-brands.fa-instagram{
+    color: white;
+    transition: .3s;
+}
+
+.fa-brands.fa-instagram:hover{
+    font-size: 40px;
+    border-radius: 9px;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
    
-   
-
-    .jam{
-
-        width: 8rem;
-    height: 8rem;
-    left: 33%;
-    top: 5%;
-    
-    }
-    
-
-  
-
-
 }

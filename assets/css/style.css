@@ -48,13 +48,7 @@ html {
 
 
 
-.fore1{
-    top:26%;
-    color:black;
-    position: absolute;
-    width: 100vw;
-   
-}
+
 .background,.fore{
  
     position: absolute;
@@ -487,6 +481,9 @@ body{
         .Jamier{
             font-size: 200%;
         }
+        .title{
+            font-size: 100px;
+        }
     }
 
 
@@ -516,3 +513,65 @@ body{
        }
         
     }
+
+
+    @media (max-width: 477px){
+       
+       .contact-email{
+        width: 100%;
+
+       }
+
+       .contact-inputs{
+        width: 100%;
+       }
+       
+       .title{
+        font-size: 80px;
+    }
+        
+    }
+
+
+    @media (max-width: 325px){
+        .stats{
+            height: 20%;
+            padding: 15px;
+        }
+        .aboutJ{
+            font-size: 60%;
+        }
+        .contact-email{
+         width: 100%;
+ 
+        }
+ 
+        .contact-inputs{
+         width: 100%;
+        }
+        .title{
+            font-size: 50px;
+        }
+         
+     }
+
+
+     @media (max-width: 291px){
+        .stats{
+           display: none;
+        }
+        .aboutJ{
+            font-size: 60%;
+        }
+        .contact-email{
+         width: 80%;
+ 
+        }
+ 
+        .contact-inputs{
+         width: 100%;
+        }
+        
+         
+     }
+

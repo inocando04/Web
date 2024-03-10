@@ -425,7 +425,7 @@ button:hover{
 }
 
 
-@media (max-height: 932px){
+@media (min-height: 932px){
    
    
 

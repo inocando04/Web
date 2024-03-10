@@ -423,3 +423,23 @@ button:hover{
 
 
 }
+
+
+@media (max-height: 932px){
+   
+   
+
+    .jam{
+
+        width: 8rem;
+    height: 8rem;
+    left: 33%;
+    top: 5%;
+    
+    }
+    
+
+  
+
+
+}

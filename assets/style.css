@@ -277,6 +277,9 @@ font-weight: 500;
  transform: translate(0%,200%);
 
 }
+
+
+
 button:hover{
     color: rgb(255, 255, 255);
     background-color: rgb(11, 129, 240);
@@ -351,7 +354,7 @@ body{
         }
        
         li{
-            font-size: 80%;
+            font-size: 70%;
         }
     
     }
@@ -368,7 +371,7 @@ body{
         }
        
         li{
-            font-size: 60%;
+            font-size: 50%;
         }
     
     }
@@ -391,7 +394,7 @@ body{
         }
        
         li{
-            font-size: 8px;
+            font-size:5%;
         }
     
     }

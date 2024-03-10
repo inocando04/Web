@@ -370,8 +370,7 @@ button:hover{
 
         width: 8rem;
     height: 8rem;
-    left: 38%;
-    top: 10%;
+    transform: translate(154%,-50%);
     
     }
 
@@ -389,7 +388,7 @@ button:hover{
 
     .Jamier{
         font-size: 200%;
-        transform: translate(-10%,100%);
+        transform: translate(-11%,175%);
 
     }
 
@@ -466,4 +465,10 @@ button:hover{
     background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
    
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+
 }

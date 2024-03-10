@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/50af7afbf8.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     
     <title>Document</title>
 </head>
@@ -43,14 +43,14 @@
                 
                     <div class="home-header"id="Home">
                        
-                         <img src="assets/moon.png" alt="" class="background">
-                         <img src="assets/download__2_-removebg-preview.png" alt="" class="fore">
+                         <img src="assets/pics/moon.png" alt="" class="background">
+                         <img src="assets/pics/download__2_-removebg-preview.png" alt="" class="fore">
                          
                               
                          
                          <h1 class="title">WELCOME!</h1>
                          
-                         <button onclick="location.href='assets/Inocando_Jamier_Resume.pdf';">Download CV</button>
+                         <button onclick="href='assets/Inocando_Jamier_Resume.pdf';"class="Download">Download CV</button>
 
                          <div class="icons"> 
                             
@@ -69,7 +69,7 @@
                             <div class="textWrap">
                                 
                               
-                                <img class="jam"src="assets/jam.png" alt="jam">
+                                <img class="jam"src="assets/pics/jam.png" alt="jam">
                                 <h1 class="Jamier">Jamier V. Inocando</h1>
 
                                 
@@ -108,17 +108,28 @@
 
                      <section class="Projects" id="Projects">
                         <div class="textWrap">
-                            <h1 class="Contacts">Contacts</h1>
-
-                            
+                            <div class="contactPanel">
+                            <form action="https://api.web3forms.com/submit" method="POST" class="contact-email">
+                                <input type="hidden" name="access_key" value="2b31db1f-adfa-4dc3-a0d0-f29bac08f9a8">
                                
+                                <h2>Get in touch</h2>
+                                <hr>
+                               
+                                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                            <input type="text" name="email" placeholder="Your Email" class="contact-inputs" required>
+                            <textarea name="message" placeholder="Your Message" class="contact-inputs"></textarea> </textarea>
+                            <button class="SubmitBtn"type="submit">Submit</button>
+                            </form> 
+                             <div class="contact-right">
+                                <img src="/assets/pics/giphy.gif" alt="">
+
+                            </div>
 
 
-                            
-                            
+                           
                         </div>
-
-
+                       
+                    </div>
                         </div>
                      </section>
 

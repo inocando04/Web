@@ -416,4 +416,18 @@ body{
     }
 
 
+
+    @media (max-width: 571px){
+       
+        .stats{
+            width: 450px;
+        }
+       .skills , .Education{
+        font-size: 60%;
+        margin: 10%;
+       }
+        
+    }
+
+
    

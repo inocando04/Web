@@ -491,11 +491,15 @@ body{
     @media (max-width: 583px){
        
         .stats{
-            width: 400px;
+            width: 300%;
         }
        .skills , .Education{
         font-size: 30%;
         margin: 10%;
+       }
+
+       .navbar a{
+        margin: 8px;
        }
         
     }
@@ -511,6 +515,16 @@ body{
         font-size: 60%;
         margin: 10%;
        }
+        
+    }
+
+
+    @media (max-width: 515px){
+       
+        .navbar a{
+            margin: 5px;
+           }
+            
         
     }
 
@@ -532,6 +546,15 @@ body{
         
     }
 
+
+    @media (max-width: 335px){
+        .Logo{
+            margin: 10px;
+        }
+       .navbar a{
+        margin: 2px;
+       }
+    }
 
     @media (max-width: 325px){
         .stats{
@@ -575,3 +598,10 @@ body{
          
      }
 
+     .pig{
+        border-radius: 30%;
+     }
+
+
+
+    

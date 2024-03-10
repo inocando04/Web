@@ -283,7 +283,7 @@ button:hover{
     }
     .stats{
         bottom: 21%;
-        flex-direction: column;
+        
     }
     li{
         font-size: 80%;
@@ -361,6 +361,7 @@ button:hover{
     .stats{
         bottom: -3%;
         margin: 0%;
+        flex-direction: column;
     }
 
     .jam{
@@ -400,7 +401,7 @@ button:hover{
 }
 
 
-@media (max-width: 414px){
+@media (max-width: 420px){
    
    
 
@@ -414,7 +415,7 @@ button:hover{
     }
 
     .textWrap{
-        height: 85vh;
+        height: 100vh;
     }
     
 
